@@ -9,7 +9,7 @@ connect();
 export async function POST(request: NextRequest) {
   try {
     const reqBody = await request.json();
-
+ 
     const { email, password } = reqBody;
 
     //if user exists
